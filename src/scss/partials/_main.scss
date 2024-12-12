@@ -1,0 +1,17 @@
+@use "../globals/variables" as var;
+
+.main {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: silver;
+	margin-top: var.$GlobalMarginTop;
+
+	&__title {
+		text-align: center;
+		font-size: var.$GlobalFontSize;
+	}
+
+	&__content {
+		padding: 5px;
+	}
+}

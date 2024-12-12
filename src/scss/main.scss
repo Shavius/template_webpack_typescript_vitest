@@ -1,0 +1,13 @@
+@forward "globals/fonts";
+@forward "globals/normalize";
+@forward "globals/styles";
+
+// Header
+@forward "partials/header";
+
+// Main
+@forward "partials/main";
+@forward "partials/card";
+
+// Footer
+@forward "partials/footer";

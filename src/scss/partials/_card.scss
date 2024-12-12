@@ -1,0 +1,16 @@
+@use "../globals/variables" as var;
+@use "../globals/mixins" as *;
+
+.card {
+	@include DefaultBlock();
+	background-color: var.$Color4;
+	margin-bottom: 8px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&__title {
+		margin-left: 5px;
+	}
+}

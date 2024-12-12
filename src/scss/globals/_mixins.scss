@@ -1,0 +1,5 @@
+@mixin DefaultBlock($BorderRadius: 5px) {
+	border: 1px solid black;
+	border-radius: $BorderRadius;
+	padding: 5px 0;
+}

@@ -1,0 +1,12 @@
+@use "../globals/variables" as var;
+
+.header {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: silver;
+
+	&__title {
+		text-align: center;
+		font-size: var.$GlobalFontSize;
+	}
+}
